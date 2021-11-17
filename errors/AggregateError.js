@@ -1,5 +1,5 @@
 function aggregateError() {
-    //catcing an aggregate error
+    //catching an aggregate error
     Promise.any([
         Promise.reject(new Error("some error")),
     ]).catch(e => {

@@ -16,6 +16,5 @@ const internalError = require('./errors/InternalError');
 // syntaxError.syntaxError();
 // typeError.typeError();
 // uriError.uriError();
-// aggregateError.aggregateError();
+// aggregateError.aggregateError('hello');
 // internalError.internalError();
-
