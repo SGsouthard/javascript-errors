@@ -2,7 +2,7 @@ function typeError() {
     try {
         null.f()
     } catch (e) {
-        console.log(e instanceof TypeError);
+        // console.log(e instanceof TypeError);
         // console.log(e.message);
         // console.log(e.name);
         // console.log(e.fileName);
@@ -13,7 +13,7 @@ function typeError() {
     try {
         throw new TypeError('Hello', 'index.js', 10)
     } catch (e) {
-        console.log(e instanceof TypeError)
+        // console.log(e instanceof TypeError);
         // console.log(e.message);
         // console.log(e.name);
         // console.log(e.fileName);

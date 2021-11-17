@@ -2,7 +2,7 @@ function syntaxError() {
     try {
         eval('hoo bar');
     } catch (e) {
-        console.error(e instanceof SyntaxError);
+        // console.error(e instanceof SyntaxError);
         // console.error(e.message);
         // console.error(e.name);
         // console.error(e.fileName);
@@ -13,7 +13,7 @@ function syntaxError() {
     try {
         throw new SyntaxError('hello', 'index.js', 10);
     } catch (e) {
-        console.error(e instanceof SyntaxError);
+        // console.error(e instanceof SyntaxError);
         // console.error(e.message);
         // console.error(e.name);
         // console.error(e.fileName);

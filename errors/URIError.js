@@ -3,7 +3,7 @@ function uriError() {
     try {
         decodeURIComponent('%')
     } catch (e) {
-        console.log(e instanceof URIError);
+        // console.log(e instanceof URIError);
         // console.log(e.message);
         // console.log(e.name);
         // console.log(e.fileName);
@@ -15,7 +15,7 @@ function uriError() {
     try {
         throw new URIError('Hello', 'index.js', 10)
     } catch (e) {
-        console.log(e instanceof URIError);
+        // console.log(e instanceof URIError);
         // console.log(e.message);
         // console.log(e.name);
         // console.log(e.fileName);
