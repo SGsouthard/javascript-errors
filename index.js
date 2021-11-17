@@ -1,4 +1,4 @@
-const evalError  = require("./errors/EvalError");
+const wowThatEval  = require("./errors/EvalError");
 const checkOne  = require("./errors/RangeErrorOne");
 const checkTwo  = require("./errors/RangeErrorTwo");
 const referenceError = require("./errors/ReferenceError");
@@ -9,7 +9,7 @@ const aggregateError = require('./errors/AggregateError');
 const internalError = require('./errors/InternalError');
 
 
-// evalError.evalError();
+// wowThatEval.evalError();
 // checkOne.checkOne();
 // checkTwo.checkTwo("cabbage");
 // referenceError.referenceError();
